@@ -1,4 +1,4 @@
-package org.abstraction;
+package org.abstraction.usingAbstract;
 
 abstract class Shape {
     String color;

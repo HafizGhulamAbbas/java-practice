@@ -1,4 +1,4 @@
-package org.abstraction;
+package org.abstraction.usingAbstract;
 
 public class Square extends Shape{
     double side;

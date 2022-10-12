@@ -1,4 +1,4 @@
-package org.abstraction;
+package org.abstraction.usingInterface;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,5 +7,9 @@ public class Main {
 
         Square square = new Square("Red", 10);
         System.out.println(square.info());
+
+        // Access interface methods and variables
+        Shape.staticMethod();
+        System.out.println(Shape.i);
     }
 }
